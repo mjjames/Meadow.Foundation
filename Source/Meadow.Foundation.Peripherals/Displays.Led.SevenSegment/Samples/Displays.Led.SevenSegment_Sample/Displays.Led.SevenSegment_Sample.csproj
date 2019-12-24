@@ -5,6 +5,6 @@
     <AssemblyName>App</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Meadow.Foundation.Displays.Led.SevenSegment" Version="0.8.2" />
+    <ProjectReference Include="..\..\Driver\Displays.Led.SevenSegment\Displays.Led.SevenSegment.csproj" />
   </ItemGroup>
 </Project>
